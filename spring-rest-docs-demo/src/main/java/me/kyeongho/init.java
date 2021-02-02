@@ -16,7 +16,7 @@ public class init {
 	
 	@PostConstruct
 	public void init() {
-		for (int i = 1; i <= 100 ; i++) {
+		for (int i = 1; i <= 20 ; i++) {
 			sampleRepository.save(new Sample("sample" + i));
 		}
 	}
